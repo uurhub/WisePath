@@ -1,16 +1,26 @@
-# f_8_bootcamp
+Takım İsmi
+Takım Flutter 8
 
-A new Flutter project.
+Ürün İle İlgili Bilgiler
+Takım Elemanları
+İrem KARAKURT: Product Owner
+Nur İlayda DAĞLI: Scrum Master
+Uğur Görkem ODABAŞ:Team Member/Developer
+Burak Fırat KIRAN:Team Member/Developer
+Berat ÇETİN:Team Member/Developer
 
-## Getting Started
+Ürün İsmi
+WisePath
 
-This project is a starting point for a Flutter application.
+Ürün Açıklaması
+WisePath,iş sahibi kişilerin meslektaşları ile mesleki sorunlarını paylaşabilmesini ve sorularına cevap bulabilmelerini sağlar WisePath meslek sahibi kişilerin mesleki hayatlarına kendileriyle aynı süreçleri geçiren ve geçirebileceği, mesleğinde uzman veya henüz mesleğinin başında olabilen kişilerin bir arada olabildiği karma bir ekosistemin içinde yardımlaşarak çeşitli iş dünyalarında kendilerini geliştirmeyi amaçlar.
+WisePath kişilerin meslekleri hakkında güncel haberleri daha hızlı ulaşmasını ve mesleki dezenformasyonların azaltılmasına önem verir.Henüz kariyer geliştirme aşamasında olan  kariyer yolcularına ise mesleği başındaki profesyonel kişilerden kariyerleri için çeşitli destekler sunar.
 
-A few resources to get you started if this is your first Flutter project:
+Ürün Özellikleri
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Hedef Kitle
+Öğrenciler
+Kariyer değişikliği yapmak isteyen bireyler
+Yeni bir kariyer inşa etmek isteyen bireyler
+Meslek gruplarından bilgi edinmek isteyen bireyler
+İş verenler 
