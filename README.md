@@ -13,7 +13,7 @@ Berat ÇETİN:Team Member/Developer
 WisePath
 
 Ürün Açıklaması
-WisePath,iş sahibi kişilerin meslektaşları ile mesleki sorunlarını paylaşabilmesini ve sorularına cevap bulabilmelerini sağlar WisePath meslek sahibi kişilerin mesleki hayatlarına kendileriyle aynı süreçleri geçiren ve geçirebileceği, mesleğinde uzman veya henüz mesleğinin başında olan kişilerin bir arada olabildiği karma bir ekosistemin içinde yardımlaşarak çeşitli iş dünyalarında kendilerini geliştirmeyi amaçlar.
+WisePath,iş sahibi kişilerin meslektaşları ile mesleki sorunlarını paylaşabilmesini ve sorularına cevap bulabilmelerini sağlar WisePath meslek sahibi kişilerin mesleki hayatlarına kendileriyle aynı süreçleri geçiren ve geçirebileceği, mesleğinde uzman veya henüz mesleğinin başında olan kişilerin bir arada olduğu karma bir ekosistemin içinde yardımlaşarak çeşitli iş dünyalarında kendilerini geliştirmeyi amaçlar.
 WisePath kişilerin meslekleri hakkında güncel haberleri daha hızlı ulaşmasını ve mesleki dezenformasyonların azaltılmasına önem verir.Henüz kariyer geliştirme aşamasında olan  kariyer yolcularına ise mesleği başındaki profesyonel kişilerden kariyerleri için çeşitli destekler sunar.
 
 Ürün Özellikleri
