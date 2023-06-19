@@ -54,5 +54,7 @@
 <li><img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/8b5c015c-7e3f-4d9c-aea2-41fe2855dcfd.png" alt="Login Page" width="300"/></li>
 <li>Ürün Durumu: Ekran Görüntüleri</li>
 <li><img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/e9ec8cdd-fd8d-4b8d-a4f8-856d7ed6bfd9.png" alt="Login Page" width="300"/></li>
+<li><img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/4ad0bad6-911f-43a1-8592-161dee9c82db.png" alt="Login Page" width="300"/></li>
 </ul>
+
 
