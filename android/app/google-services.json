@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572130411410",
+    "project_id": "wisepath-7bbf2",
+    "storage_bucket": "wisepath-7bbf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572130411410:android:6d893f319d33e6deb1b74b",
+        "android_client_info": {
+          "package_name": "com.example.f_8_bootcamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572130411410-8ahm5ah2v6bcaf0d10g5pva01vrue4ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Clwq3keD61b6a-HafmsEM8KoRyAKiLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572130411410-8ahm5ah2v6bcaf0d10g5pva01vrue4ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
