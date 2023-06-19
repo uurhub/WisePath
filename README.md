@@ -55,6 +55,9 @@
 <li>Ürün Durumu: Ekran Görüntüleri</li>
 <li><img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/e9ec8cdd-fd8d-4b8d-a4f8-856d7ed6bfd9.png" alt="Login Page" width="300"/></li>
 <li><img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/4ad0bad6-911f-43a1-8592-161dee9c82db.png" alt="Login Page" width="300"/></li>
+<li>Sprint Review: Alınan kararlar: uygulama ismine ve kimin ne görev alacağına karar verdik 
+sprint Reviw katılımcıları : Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görkem ODABAŞ, Berat ÇETİN, Burak Fırat KIRAN </li>
+<li>Sprint Retrospective: görev takibi daha sık yapılmalı kaybedilecek vakit kaybı göz önüne alınarak görev dağılımı yapılmalı</li>
 </ul>
 
 
