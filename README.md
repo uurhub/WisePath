@@ -27,4 +27,30 @@
 <p>Wisepath mobil uygulamasının nasıl çalıştığına bakacak olursak; iş sahibi kişilerin, meslektaşları ile mesleki sorunlarını paylaşabilmelerini, sorularına cevaplar bulabilmelerini, kariyerinin başındaki bireyler için kendilerine yakışır işi tercih etmede kolaylık sağlaması adına; mesleğindeki profesyonel kişilerden kariyerleri için çeşitli destek alabilmelerini sağlar.</p>
 <p>WisePath, meslek sahibi kişilerin mesleki hayatlarında kendileriyle benzer problemleri yaşayan veya henüz kariyerinin başında olan bireylerin bir arada olduğu karma bir ekosistem oluşturmayı amaçlamaktadır.</p>
 
+<h2> Ürün Özellikleri </h2>
 
+<ul>
+<li>Kullanıcıların meslektaşlarıyla biraraya geldiği ortak paylaşım platformu.</li>
+<li>Kullanıcıların tamamının birarada olduğu, kendi meslektaşları haricindeki kullanıcılara merak ettikleri ve ilgilendikleri alanlarda paylaşımda bulunabildiği etkileşim platformu.</li>
+<li>Alanında yetkin kullanıcıların mentorluk yaptığı ve bu mentorlardan kariyeri için desteğe ihtiyaç duyan kullanıcıların mentorlerle biraraya geldiği mentorluk platformu.</li>
+</ul>
+
+<h2> Hedef Kitle </h2>
+
+<ul>
+<li>Meslek Sahibi Bireyler</li>
+<li>Öğrenciler</li>
+<li>Yeni Mezunlar<li>
+<li>Gönüllü Mentörlük Desteği Vermek İsteyen Bireyler</li>
+</ul>
+<hr>
+
+<h1>Sprint 1 </h1>
+<ul>
+<li>Sprint içinde tamamlanması tahmin edilen puan: 100 Puan</li>
+<li>Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 360 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in eBacklog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.</li>
+<li>Daily Scrum: Daily Scrum toplantılarının whatsapp&dıscord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.[Daily_scrum.docx](https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx)<li>
+<li>Sprint board update: Sprint board screenshotları:</li>
+<li>![image](https://github.com/uurhub/f_8_bootcamp/assets/70581331/381a41da-f4fb-42a5-827d-f26349a27d56)</li>
+
+</ul>
