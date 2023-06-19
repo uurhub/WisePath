@@ -39,7 +39,7 @@
 <ul>
 <li>Meslek Sahibi Bireyler</li>
 <li>Öğrenciler</li>
-<li>Yeni Mezunlar<li>
+<li>Yeni Mezunlar</li>
 <li>Gönüllü Mentörlük Desteği Vermek İsteyen Bireyler</li>
 </ul>
 
