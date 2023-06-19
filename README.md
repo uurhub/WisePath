@@ -49,7 +49,7 @@
 <ul>
 <li>Sprint içinde tamamlanması tahmin edilen puan: 100 Puan</li>
 <li>Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 360 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in eBacklog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.</li>
-<li>Daily Scrum: Daily Scrum toplantılarının whatsapp&dıscord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.[Daily_scrum.docx](https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx)<li>
+<li>Daily Scrum: Daily Scrum toplantılarının whatsapp&dıscord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.<a href="https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx">Daily Scrum Word Dosyası</a>
 <li>Sprint board update: Sprint board screenshotları:</li>
 <li><img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/8b5c015c-7e3f-4d9c-aea2-41fe2855dcfd.png" alt="Login Page" width="300"/></li>
 <li>Ürün Durumu: Ekran Görüntüleri</li>
