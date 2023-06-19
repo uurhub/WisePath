@@ -52,5 +52,7 @@
 <li>Daily Scrum: Daily Scrum toplantılarının whatsapp&dıscord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.[Daily_scrum.docx](https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx)<li>
 <li>Sprint board update: Sprint board screenshotları:</li>
 <li><img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/8b5c015c-7e3f-4d9c-aea2-41fe2855dcfd.png" alt="Login Page" width="300"/></li>
-
+<li>Ürün Durumu: Ekran Görüntüleri</li>
+<li><img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/e9ec8cdd-fd8d-4b8d-a4f8-856d7ed6bfd9.png" alt="Login Page" width="300"/></li>
 </ul>
+
