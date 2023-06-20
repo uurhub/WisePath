@@ -47,7 +47,7 @@
 
 <h1>Sprint 1 </h1>
 <ul>
-<li>Sprint Notları: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.</li>
+<li><b>Sprint Notları:</b>User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.</li>
 <li><b>Sprint içinde tamamlanması tahmin edilen puan:</b> 100 Puan</li>
 <li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in eBacklog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.</li>
 <li><b>Backlog düzeni ve Story seçimleri:</b> Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.</li>
