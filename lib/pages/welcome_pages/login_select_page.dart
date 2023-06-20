@@ -32,7 +32,7 @@ class LoginSelectPage extends StatelessWidget{
                   ),
                   Container(
                     height: MediaQuery.of(context).size.height /3,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                         image: DecorationImage(
                             image: AssetImage('assets/images/loginselect.png')
                         )
@@ -43,25 +43,27 @@ class LoginSelectPage extends StatelessWidget{
                       MaterialButton(
                         minWidth: double.infinity,
                         height: 60,
-                        onPressed: (){},
+                        onPressed: (){
+                          Navigator.pushNamed(context, "/loginPage");
+                        },
                         color: Color(0xffDAD8D8),
                         elevation: 0,
                         shape: RoundedRectangleBorder(
-                            side: BorderSide(
-),
+                            side: const BorderSide(
+                            ),
                             borderRadius: BorderRadius.circular(50)
                         ),
-                        child: Text("Giriş Yap / Kayıt Ol", style: TextStyle(
+                        child: const Text("Giriş Yap / Kayıt Ol", style: TextStyle(
                             fontWeight: FontWeight.w600,
                             fontSize: 18
                         ),),
                       ),
-                      SizedBox(height: 20,),
+                      const SizedBox(height: 20,),
                       Container(
                         padding: EdgeInsets.only(top: 3, left: 3),
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(50),
-                            border: Border(
+                            border: const Border(
                               bottom: BorderSide(color: Colors.black),
                               top:  BorderSide(color: Colors.black),
                               left:  BorderSide(color: Colors.black),
