@@ -52,11 +52,11 @@
 <li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in eBacklog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.</li>
 <li><b>Backlog düzeni ve Story seçimleri:</b> Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.</li>
 <li>Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.</li>
-<li><b>Daily Scrum:</b> Daily Scrum toplantılarının whatsapp&dıscord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.<a href="https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx">Daily Scrum Word Dosyası</a>
-<li><b>Sprint board update:</b> Sprint board screenshotları:</li>
+<li><b>Daily Scrum:</b> Daily Scrum toplantılarının WhatsApp & Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.<a href="https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx">Daily Scrum Word Dosyası</a>
+<li><b>Sprint board update:</b> Sprint Board Ekran Görüntüsü:</li>
 <br>
 <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/8b5c015c-7e3f-4d9c-aea2-41fe2855dcfd.png" alt="Login Page" width="700"/>
-<li><b>Ürün Durumu: Ekran Görüntüleri</b></li>
+<li><b>Ürün Durumu:</b> Ekran Görüntüleri </li>
 <br>
 <table>
 <tr>
@@ -83,6 +83,50 @@
 Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görkem ODABAŞ, Berat ÇETİN, Burak Fırat KIRAN </li>
 <li><b>Sprint Retrospective:</b> görev takibi daha sık yapılmalı kaybedilecek vakit kaybı göz önüne alınarak görev dağılımı yapılmalı</li>
 </ul>
+<hr>
+<h2>Product Backlog URL</h2>
+<a href="https://miro.com/app/board/uXjVM_8PSy0=/?share_link_id=226463744446">Flutter Team 8 Miro Backlog Board</a>
+<hr>
+<h1>Sprint 2</h1>
 
-
-
+<ul>
+ <li><b>Sprint içinde tamamlanması tahmin edilen puan:</b> 100 Puan</li>
+ <li><b>Daily Scrum:</b> Daily Scrum toplantıları WhatsApp & Discord üzerinden yapılmıştır. Daily Scrum toplantılarına dair bilgileri içeren PDF dosyasına yanda verilen link üzerinden indirebilirsiniz (PDF dosyası içerisinde WhatsApp yazışmaları ve Discord sesli kanalındaki gerçekleşen konular görsel olarak mevcuttur.)-> <a href="https://github.com/uurhub/f8-readme/files/11931190/F8_DailyScrum.pdf">Daily Scrum PDF Dosyası</a></li>
+<li><b>Sprint board update:</b> Sprint Board Ekran Görüntüsü:</li>
+ <br>
+<img src="https://github.com/uurhub/f8-readme/assets/70581331/1d8b0fe4-e3fe-472d-b14c-9cdbfc876568" alt="Login Page" width="700"/>
+<li><b>Ürün Durumu:</b>Ekran Görüntüleri</li>
+ <br>
+<table>
+<tr>
+<td>
+ <img src="https://github.com/uurhub/f8-readme/assets/70581331/573164af-2a04-429f-9ea5-48596e62c2a9.png" alt="Login Page" width="500"/>
+</td>
+ <td>
+  <img src="https://github.com/uurhub/f8-readme/assets/70581331/399a5883-1ec0-4e24-9b4a-a3bf6d792a76.png" alt="Login Page" width="500"/>
+ </td>
+ <td>
+  <img src="https://github.com/uurhub/f8-readme/assets/70581331/38c0dc91-652a-49bb-abf5-c314c02a3a70.png" alt="Login Page" width="500"/>
+ </td>
+ <td>
+  <img src="https://github.com/uurhub/f8-readme/assets/70581331/c9de2fd9-e667-4368-870f-54dcb3bf97ea.png" alt="Login Page" width="500"/>
+ </td>
+</tr>
+</table>
+<table>
+ <tr>
+  <td>
+   <img src="https://github.com/uurhub/f8-readme/assets/70581331/05ad4bbf-06c8-4156-b1ef-b57f9ca37fc8.png" alt="Login Page" width="1000" height="400"/>
+  </td>
+ </tr>
+</table>
+<br>
+<li>
+<b>Sprint Review:</b> Kullanıcı Profili sayfası UI tasarımı tamamlanmış,SMS Auth sayfası ve Kullanıcı Rol seçme sayfaları UI ve Firebase işlemleri tamamlanmıştır. Meslek özel ve genel kullanıcı sayfaları tamamlanamamış bir sonraki sprint'e aktarılmıştır.
+<br>
+Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görkem ODABAŞ, Berat ÇETİN, Burak Fırat KIRAN
+ </li>
+ <li>
+  <b>Sprint Retrospective:</b> Tasarım ve Kodlama süreçlerinin daha da hızlanması gerekildiği tüm takım üyelerine bildirilmiş ve takım üyelerinin daha fazla sorumluluk alarak daha takım olarak belirtlilen deadline'lar içerisinde görevleri yerine getirilmeleri hakkında bilgilendirilmiştir.Daha sık görev takibi yapılmasına karar verilmiştir.</li>
+ </li>
+</ul>
