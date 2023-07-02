@@ -116,7 +116,7 @@ Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görke
 <table>
  <tr>
   <td>
-   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/58bf5308-6972-44d2-86c5-544c7bf65d36.png" alt="Login Page" width="1000" height="400"/>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/ef80c4c2-f995-42b6-8d89-f078ab62dc64.png" alt="Login Page" width="1000" height="400"/>
   </td>
  </tr>
 </table>
