@@ -100,23 +100,23 @@ Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görke
 <table>
 <tr>
 <td>
- <img src="https://github.com/uurhub/f8-readme/assets/70581331/573164af-2a04-429f-9ea5-48596e62c2a9.png" alt="Login Page" width="500"/>
+ <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/80749e97-b101-4a48-b6f5-75efc5894664.png" alt="Login Page" width="500"/>
 </td>
  <td>
-  <img src="https://github.com/uurhub/f8-readme/assets/70581331/399a5883-1ec0-4e24-9b4a-a3bf6d792a76.png" alt="Login Page" width="500"/>
+  <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/4ff3f524-b72f-44aa-95da-775a887c58a1.png" alt="Login Page" width="500"/>
  </td>
  <td>
-  <img src="https://github.com/uurhub/f8-readme/assets/70581331/38c0dc91-652a-49bb-abf5-c314c02a3a70.png" alt="Login Page" width="500"/>
+  <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/38005d34-75b2-4db9-a62c-4f8b3cd64839.png" alt="Login Page" width="500"/>
  </td>
  <td>
-  <img src="https://github.com/uurhub/f8-readme/assets/70581331/c9de2fd9-e667-4368-870f-54dcb3bf97ea.png" alt="Login Page" width="500"/>
+  <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/c60b99df-e448-480a-a6d7-4cd74653de94.png" alt="Login Page" width="500"/>
  </td>
 </tr>
 </table>
 <table>
  <tr>
   <td>
-   <img src="https://github.com/uurhub/f8-readme/assets/70581331/05ad4bbf-06c8-4156-b1ef-b57f9ca37fc8.png" alt="Login Page" width="1000" height="400"/>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/58bf5308-6972-44d2-86c5-544c7bf65d36.png" alt="Login Page" width="1000" height="400"/>
   </td>
  </tr>
 </table>
