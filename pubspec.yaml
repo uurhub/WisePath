@@ -34,13 +34,19 @@ dependencies:
   smooth_page_indicator: ^1.1.0
   lottie: ^2.4.0
 
-
+  google_sign_in: ^6.1.4
+  provider: ^6.0.5
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   firebase_core: ^2.14.0
   cloud_firestore: ^4.8.1
   firebase_auth: ^4.6.3
+  fluentui_system_icons: ^1.1.203
+  country_picker: ^2.0.20
+  shared_preferences: ^2.1.2
+  pinput: ^2.2.31
+  font_awesome_flutter: ^10.4.0
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +76,8 @@ flutter:
     - assets/images/google.png
     - assets/images/linkedin.png
     - assets/images/loginselect.png
+    - assets/images/icon_call.png
+    - assets/images/avatar.jpg
     
   #   - images/a_dot_ham.jpeg
 

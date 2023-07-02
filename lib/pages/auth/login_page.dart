@@ -1,5 +1,12 @@
+import 'package:f_8_bootcamp/pages/auth/firebase_services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
+
+import 'global_doc_id.dart';
+
 
 class LoginPageUI extends StatefulWidget {
   const LoginPageUI({super.key});
@@ -9,9 +16,11 @@ class LoginPageUI extends StatefulWidget {
 }
 
 class _LoginPageUIState extends State<LoginPageUI> {
+
   late String email,password;
   final formkey = GlobalKey<FormState>();
   final firebaseAuth = FirebaseAuth.instance;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,6 +58,7 @@ class _LoginPageUIState extends State<LoginPageUI> {
                       fillColor: Colors.white,
                       filled: true,
                       hintText: "Email",
+                      prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.mail_16_regular),)
                       ),
                     ),
                   ),
@@ -79,6 +89,7 @@ class _LoginPageUIState extends State<LoginPageUI> {
                       fillColor: Colors.white,
                       filled: true,
                       hintText: "Şifre",
+                      prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.password_16_regular))
                       ),
                     ),
                   ),
@@ -138,9 +149,7 @@ class _LoginPageUIState extends State<LoginPageUI> {
                       const Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          _boxButtonImages(imagepath: "assets/images/google.png",),
-                          SizedBox(width: 80,),
-                          _boxButtonImages(imagepath: "assets/images/linkedin.png",)
+                          _googleSignInButton(imagepath: "assets/images/google.png",),
                         ],
                       ),
                       _sizedBox25(),
@@ -154,7 +163,6 @@ class _LoginPageUIState extends State<LoginPageUI> {
                             child: const Text("Hemen oluştur.",style: TextStyle(color: Colors.black)),)
                         ],
                       )
-                      
               ],
             ),
           ),
@@ -173,16 +181,42 @@ class _LoginPageUIState extends State<LoginPageUI> {
 
 }
 
-class _boxButtonImages extends StatelessWidget {
-  const _boxButtonImages({super.key, this.imagepath,});
+class _googleSignInButton extends StatelessWidget {
+  const _googleSignInButton({super.key, this.imagepath,});
 
   final imagepath;
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: (){
-        print("clicked");
+      onTap: () async{
+        await FirebaseServices().signInWithGoogle();
+        final user = FirebaseAuth.instance.currentUser;
+        await user?.unlink('google.com'); // burası teste edilecek google account da sıkıntı çıkabilir veya çıkmayabilir.
+        final userData = await GoogleSignIn().signIn();
+        final googleUser = await userData?.authentication;
+        final googleSignInAccount = await GoogleSignIn().signInSilently();
+
+        final userProfile = googleSignInAccount?.displayName ?? 'N/A';
+        final userEmail = googleSignInAccount?.email ?? 'N/A';
+
+        await user?.linkWithCredential(
+          GoogleAuthProvider.credential(
+            accessToken: googleUser?.accessToken,
+            idToken: googleUser?.idToken,
+        ),
+      );
+        final FirebaseFirestore firestore = FirebaseFirestore.instance;
+        await firestore.collection('Users').add({
+          'Name': userProfile,
+          'Email': userEmail,
+      }).then((DocumentReference doc){
+          print(doc.id);
+          GlobalDocIdGoogle.latestDocIdGoogle = doc.id; 
+          });
+          
+        Navigator.pushNamed(context,"/dropdownPage");
+        print("clicked google");
       },
       child: Ink(
         padding: EdgeInsets.all(20),
@@ -198,7 +232,6 @@ class _boxButtonImages extends StatelessWidget {
     );
   }
 }
-
 
 
 class _wplogo extends StatelessWidget {

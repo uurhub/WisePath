@@ -1,4 +1,7 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:f_8_bootcamp/pages/auth/global_doc_id.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 
 class SignUpPageUI extends StatefulWidget {
@@ -9,9 +12,10 @@ class SignUpPageUI extends StatefulWidget {
 }
 
 class _SignUpPageUIState extends State<SignUpPageUI> {
-  late String email,password;
+  late String email,password,fullName,lastName;
   final formkey = GlobalKey<FormState>();
   final firebaseAuth = FirebaseAuth.instance;
+  final firebaseFirestore = FirebaseFirestore.instance;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,18 +30,13 @@ class _SignUpPageUIState extends State<SignUpPageUI> {
                 const _wplogo(),
                     emailcheck(),
                     _sizedBox10(),
-                    // const UserNameTextField(
-                    //   hintText: "İsim",
-                    //   obsourseText: false,
-                    // ),
-                    // _sizedBox10(),
-                    // const UserNameTextField(
-                    //   hintText: "Soyisim",
-                    //   obsourseText: false,
-                    // ),
-                    // _sizedBox10(),
+                    namecheck(),
+                    _sizedBox10(),
+                    lastnamecheck(),
+                    _sizedBox10(),
                     passwordcheck(),
                       _sizedBox50(),
+                      
                       SizedBox(
                         height: 45,
                         width: 150,
@@ -47,14 +46,21 @@ class _SignUpPageUIState extends State<SignUpPageUI> {
                               formkey.currentState!.save();
                               try {
                                 var userResult = await firebaseAuth.createUserWithEmailAndPassword(
-                                email: email, password: password
+                                email: email, password: password,
                                 );
-                                formkey.currentState!.reset();
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  const SnackBar(
-                                    content: 
-                                    Text("Giriş yapıldı ana sayfaya yönlendiriliyorsunuz")));
-                                    Navigator.pushReplacementNamed(context, "/loginPage");
+                                try {
+                                  final resultData = await firebaseFirestore.collection("Users").add({
+                                    "Name":fullName,
+                                    "Surname": lastName,
+                                    "Email": email                                  
+                                    }).then((DocumentReference doc){
+                                      GlobalDocId.latestDocId = doc.id;
+                                      Navigator.pushReplacementNamed(context, "/verificationPage");
+                                    });
+                                } catch (e) {
+                                  print(e.toString());
+                                }
+                                formkey.currentState!.reset();  
                               } catch (e) {
                                 print(e.toString());
                               }
@@ -62,7 +68,7 @@ class _SignUpPageUIState extends State<SignUpPageUI> {
                           },
                           style:ElevatedButton.styleFrom(
                             shape: const StadiumBorder(),primary: Colors.white), 
-                            child: const Text("Kayıt Ol",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black),)),
+                            child: const Text("Devam Et",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black),)),
                       ),
                       _sizedBox50(),
                       Row(
@@ -81,6 +87,73 @@ class _SignUpPageUIState extends State<SignUpPageUI> {
       ),
     );
   }
+
+  Padding lastnamecheck() {
+    return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                    child: TextFormField(
+                      validator:(value){
+                      if (value!.isEmpty) {
+                        return "Burayı boş bırakamazsınız";
+                      }else{}
+                      return null;
+                    },
+                    onSaved: (value){
+                      lastName = value!;
+                    },
+                    style: const TextStyle(color: Colors.black),
+                    obscureText: false,
+                    decoration: InputDecoration(
+                      enabledBorder: OutlineInputBorder(
+                      borderSide: const BorderSide(color: Colors.white,),
+                      borderRadius: BorderRadius.circular(40)
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey.shade400),
+                    borderRadius: BorderRadius.circular(40)
+                    ),
+                    fillColor: Colors.white,
+                    filled: true,
+                    hintText: "Soyisim",
+                    prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.people_16_regular),)
+                    ),
+                    ),
+                  );
+  }
+
+  Padding namecheck() {
+    return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                    child: TextFormField(
+                      validator:(value){
+                      if (value!.isEmpty) {
+                        return "Burayı boş bırakamazsınız";
+                      }else{}
+                      return null;
+                    },
+                    onSaved: (value){
+                      fullName = value!;
+                    },
+                    style: const TextStyle(color: Colors.black),
+                    obscureText: false,
+                    decoration: InputDecoration(
+                      enabledBorder: OutlineInputBorder(
+                      borderSide: const BorderSide(color: Colors.white,),
+                      borderRadius: BorderRadius.circular(40)
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey.shade400),
+                    borderRadius: BorderRadius.circular(40)
+                    ),
+                    fillColor: Colors.white,
+                    filled: true,
+                    hintText: "İsim",
+                    prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.people_16_regular),)
+                    ),
+                    ),
+                  );
+  }
+  
 
   Padding passwordcheck() {
     return Padding(
@@ -109,6 +182,7 @@ class _SignUpPageUIState extends State<SignUpPageUI> {
                     fillColor: Colors.white,
                     filled: true,
                     hintText: "Şifre",
+                    prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.password_16_regular),)
                     ),
                   ),
                 );
@@ -140,10 +214,12 @@ class _SignUpPageUIState extends State<SignUpPageUI> {
                     fillColor: Colors.white,
                     filled: true,
                     hintText: "Email",
+                    prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.mail_16_regular),)
                     ),
                   ),
                 );
   }
+  
 
   SizedBox _sizedBox10() => const SizedBox(height: 10,);
 
