@@ -49,7 +49,7 @@
 <ul>
 <li><b>Sprint Notları:</b>User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.</li>
 <li><b>Sprint içinde tamamlanması tahmin edilen puan:</b> 100 Puan</li>
-<li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in eBacklog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.</li>
+<li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in Backlog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.</li>
 <li><b>Backlog düzeni ve Story seçimleri:</b> Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.</li>
 <li>Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.</li>
 <li><b>Daily Scrum:</b> Daily Scrum toplantılarının WhatsApp & Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.<a href="https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx">Daily Scrum Word Dosyası</a>
@@ -90,7 +90,9 @@ Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görke
 <h1>Sprint 2</h1>
 
 <ul>
+ <li><b>Sprint Notları:</b>User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.</li>
  <li><b>Sprint içinde tamamlanması tahmin edilen puan:</b> 100 Puan</li>
+ <li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık Backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in en az 100 ile devam etmesi gerektiğine karar verildi.</li>
  <li><b>Daily Scrum:</b> Daily Scrum toplantıları WhatsApp & Discord üzerinden yapılmıştır. Daily Scrum toplantılarına dair bilgileri içeren PDF dosyasına yanda verilen link üzerinden indirebilirsiniz (PDF dosyası içerisinde WhatsApp yazışmaları ve Discord sesli kanalındaki gerçekleşen konular görsel olarak mevcuttur.)-> <a href="https://github.com/uurhub/f_8_bootcamp/files/11938143/F8_DailyScrum.pdf">Daily Scrum PDF Dosyası</a></li>
 <li><b>Sprint board update:</b> Sprint Board Ekran Görüntüsü:</li>
  <br>
