@@ -91,10 +91,10 @@ Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görke
 
 <ul>
  <li><b>Sprint içinde tamamlanması tahmin edilen puan:</b> 100 Puan</li>
- <li><b>Daily Scrum:</b> Daily Scrum toplantıları WhatsApp & Discord üzerinden yapılmıştır. Daily Scrum toplantılarına dair bilgileri içeren PDF dosyasına yanda verilen link üzerinden indirebilirsiniz (PDF dosyası içerisinde WhatsApp yazışmaları ve Discord sesli kanalındaki gerçekleşen konular görsel olarak mevcuttur.)-> <a href="https://github.com/uurhub/f8-readme/files/11931190/F8_DailyScrum.pdf">Daily Scrum PDF Dosyası</a></li>
+ <li><b>Daily Scrum:</b> Daily Scrum toplantıları WhatsApp & Discord üzerinden yapılmıştır. Daily Scrum toplantılarına dair bilgileri içeren PDF dosyasına yanda verilen link üzerinden indirebilirsiniz (PDF dosyası içerisinde WhatsApp yazışmaları ve Discord sesli kanalındaki gerçekleşen konular görsel olarak mevcuttur.)-> <a href="https://github.com/uurhub/f_8_bootcamp/files/11938143/F8_DailyScrum.pdf">Daily Scrum PDF Dosyası</a></li>
 <li><b>Sprint board update:</b> Sprint Board Ekran Görüntüsü:</li>
  <br>
-<img src="https://github.com/uurhub/f8-readme/assets/70581331/1d8b0fe4-e3fe-472d-b14c-9cdbfc876568" alt="Login Page" width="700"/>
+<img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/20614100-ff9d-456f-ad35-9f4132cfb219.png" alt="Login Page" width="700"/>
 <li><b>Ürün Durumu:</b>Ekran Görüntüleri</li>
  <br>
 <table>
