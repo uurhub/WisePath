@@ -49,14 +49,14 @@
 <ul>
 <li><b>Sprint Notları:</b>User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.</li>
 <li><b>Sprint içinde tamamlanması tahmin edilen puan:</b> 100 Puan</li>
-<li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in eBacklog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.</li>
+<li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in Backlog düzeni ve Story seçimleri: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir.</li>
 <li><b>Backlog düzeni ve Story seçimleri:</b> Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.</li>
 <li>Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.</li>
-<li><b>Daily Scrum:</b> Daily Scrum toplantılarının whatsapp&dıscord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.<a href="https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx">Daily Scrum Word Dosyası</a>
-<li><b>Sprint board update:</b> Sprint board screenshotları:</li>
+<li><b>Daily Scrum:</b> Daily Scrum toplantılarının WhatsApp & Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır.<a href="https://github.com/uurhub/f_8_bootcamp/files/11782959/Daily_scrum.docx">Daily Scrum Word Dosyası</a>
+<li><b>Sprint board update:</b> Sprint Board Ekran Görüntüsü:</li>
 <br>
 <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/8b5c015c-7e3f-4d9c-aea2-41fe2855dcfd.png" alt="Login Page" width="700"/>
-<li><b>Ürün Durumu: Ekran Görüntüleri</b></li>
+<li><b>Ürün Durumu:</b> Ekran Görüntüleri </li>
 <br>
 <table>
 <tr>
@@ -83,6 +83,52 @@
 Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görkem ODABAŞ, Berat ÇETİN, Burak Fırat KIRAN </li>
 <li><b>Sprint Retrospective:</b> görev takibi daha sık yapılmalı kaybedilecek vakit kaybı göz önüne alınarak görev dağılımı yapılmalı</li>
 </ul>
+<hr>
+<h2>Product Backlog URL</h2>
+<a href="https://miro.com/app/board/uXjVM_8PSy0=/?share_link_id=226463744446">Flutter Team 8 Miro Backlog Board</a>
+<hr>
+<h1>Sprint 2</h1>
 
-
-
+<ul>
+ <li><b>Sprint Notları:</b>User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.</li>
+ <li><b>Sprint içinde tamamlanması tahmin edilen puan:</b> 100 Puan</li>
+ <li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık Backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in en az 100 ile devam etmesi gerektiğine karar verildi.</li>
+ <li><b>Daily Scrum:</b> Daily Scrum toplantıları WhatsApp & Discord üzerinden yapılmıştır. Daily Scrum toplantılarına dair bilgileri içeren PDF dosyasına yanda verilen link üzerinden indirebilirsiniz (PDF dosyası içerisinde WhatsApp yazışmaları ve Discord sesli kanalındaki gerçekleşen konular görsel olarak mevcuttur.)-> <a href="https://github.com/uurhub/f_8_bootcamp/files/11938143/F8_DailyScrum.pdf">Daily Scrum PDF Dosyası</a></li>
+<li><b>Sprint board update:</b> Sprint Board Ekran Görüntüsü:</li>
+ <br>
+<img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/20614100-ff9d-456f-ad35-9f4132cfb219.png" alt="Login Page" width="700"/>
+<li><b>Ürün Durumu:</b>Ekran Görüntüleri</li>
+ <br>
+<table>
+<tr>
+<td>
+ <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/80749e97-b101-4a48-b6f5-75efc5894664.png" alt="Login Page" width="500"/>
+</td>
+ <td>
+  <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/4ff3f524-b72f-44aa-95da-775a887c58a1.png" alt="Login Page" width="500"/>
+ </td>
+ <td>
+  <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/38005d34-75b2-4db9-a62c-4f8b3cd64839.png" alt="Login Page" width="500"/>
+ </td>
+ <td>
+  <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/c60b99df-e448-480a-a6d7-4cd74653de94.png" alt="Login Page" width="500"/>
+ </td>
+</tr>
+</table>
+<table>
+ <tr>
+  <td>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/ef80c4c2-f995-42b6-8d89-f078ab62dc64.png" alt="Login Page" width="1000" height="400"/>
+  </td>
+ </tr>
+</table>
+<br>
+<li>
+<b>Sprint Review:</b> Kullanıcı Profili sayfası UI tasarımı tamamlanmış,SMS Auth sayfası ve Kullanıcı Rol seçme sayfaları UI ve Firebase işlemleri tamamlanmıştır. Meslek özel ve genel kullanıcı sayfaları tamamlanamamış bir sonraki sprint'e aktarılmıştır.
+<br>
+Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görkem ODABAŞ, Berat ÇETİN, Burak Fırat KIRAN
+ </li>
+ <li>
+  <b>Sprint Retrospective:</b> Tasarım ve Kodlama süreçlerinin daha da hızlanması gerekildiği tüm takım üyelerine bildirilmiş ve takım üyelerinin daha fazla sorumluluk alarak daha takım olarak belirtlilen deadline'lar içerisinde görevleri yerine getirilmeleri hakkında bilgilendirilmiştir.Daha sık görev takibi yapılmasına karar verilmiştir.</li>
+ </li>
+</ul>
