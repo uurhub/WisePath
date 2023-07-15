@@ -1,9 +1,16 @@
+import 'package:f_8_bootcamp/pages/side_pages/email_screen.dart';
+import 'package:f_8_bootcamp/pages/side_pages/faq_page.dart';
+import 'package:f_8_bootcamp/pages/side_pages/forgotpassword_page.dart';
 import 'package:f_8_bootcamp/pages/auth/login_page.dart';
 import 'package:f_8_bootcamp/pages/auth/sign_up_page.dart';
 import 'package:f_8_bootcamp/pages/auth/verification_code_page.dart';
+import 'package:f_8_bootcamp/pages/side_pages/find_jobs.dart';
+import 'package:f_8_bootcamp/pages/main_pages/general_chat_side/general_chat_page.dart';
+import 'package:f_8_bootcamp/pages/main_pages/general_chat_side/posts/add.dart';
+import 'package:f_8_bootcamp/pages/main_pages/general_chat_side/published_post.dart';
 import 'package:f_8_bootcamp/pages/main_pages/student_page.dart';
 import 'package:f_8_bootcamp/pages/main_pages/teacher_page.dart';
-import 'package:f_8_bootcamp/pages/auth/dropdown_page.dart';
+import 'package:f_8_bootcamp/pages/side_pages/dropdown_page.dart';
 import 'package:f_8_bootcamp/pages/main_pages/user_profile_page.dart';
 import 'package:f_8_bootcamp/pages/welcome_pages/login_select_page.dart';
 import 'package:f_8_bootcamp/pages/welcome_pages/onboarding_screen.dart';
@@ -42,7 +49,14 @@ class MyApp extends StatelessWidget {
         "/studentPage":(context) => Student(),
         "/teacherPage":(context) => Teacher(),
         "/verificationPage":(context) => VerificationCodeState(),
-        "/userprofilePage":(context) => UserProfileScreen()
+        "/userprofilePage":(context) => UserProfileScreen(),
+        "/addContentPage":(context) => AddState(),
+        "/generalChatPage":(context) => GeneralChatPage(key: UniqueKey(),),
+        "/publishedPostPage":(context) => PublishedPostsPage(),
+        "/findJobsPage":(context) => FindJobsAPIPage(),
+        "/forgotPasswordPage":(context) => ForgotPasswordPage(),
+        "/faqPage":(context) => FaqPage(),
+        "/emailSendPage":(context) => EmailSendPage(),
       },
     home: UserProfileScreen(),
     ),

@@ -55,7 +55,7 @@ class _SignUpPageUIState extends State<SignUpPageUI> {
                                     "Email": email                                  
                                     }).then((DocumentReference doc){
                                       GlobalDocId.latestDocId = doc.id;
-                                      Navigator.pushReplacementNamed(context, "/verificationPage");
+                                      Navigator.pushReplacementNamed(context, "/loginPage");
                                     });
                                 } catch (e) {
                                   print(e.toString());
@@ -182,7 +182,7 @@ class _SignUpPageUIState extends State<SignUpPageUI> {
                     fillColor: Colors.white,
                     filled: true,
                     hintText: "Şifre",
-                    prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.password_16_regular),)
+                    prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.lock_closed_16_regular),)
                     ),
                   ),
                 );

@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:f_8_bootcamp/pages/auth/sign_up_page.dart';
 
-import 'global_doc_id.dart';
+import '../auth/global_doc_id.dart';
 
 
 class DropDownPage extends StatefulWidget {
@@ -31,49 +31,51 @@ class _DropDownPageState extends State<DropDownPage> {
       body: Center(
         child: Form(
           key: formkey,
-          child: Column(
-            children: [
-              Image.asset("assets/images/wisepathlogo.png",width: 300),
-              Text("Devam etmek için lütfen meslek grubunuzu seçiniz",style: TextStyle(fontSize: 16,fontWeight:FontWeight.bold),),
-              SizedBox(height: 80,),
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Container(
-                  padding: EdgeInsets.only(left: 16.0, right: 16.0),
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.black, width: 2.0),
-                    borderRadius: BorderRadius.circular(15.0),
-                  ),
-                  child: DropdownButton(
-                    hint: Text('Meslek Grubunuzu Seçiniz'),
-                    dropdownColor: Colors.white,
-                    elevation: 5,
-                    icon: Icon(Icons.arrow_drop_down),
-                    iconSize: 36.0,
-                    isExpanded: true,
-                    value: _jobsVal,
-                    style: TextStyle(color: Colors.black, fontSize: 22.0),
-                    onChanged: (value) {
-                      setState(() {
-                        _jobsVal= value as String?;
-                      });
-                    },
-                    items: _jobsName.map((value) {
-                      return DropdownMenuItem(
-                        value: value,
-                        child: Text(value),
-                      );
-                    }).toList(),
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                Image.asset("assets/images/wisepathlogo.png",width: 300),
+                Text("Devam etmek için lütfen meslek grubunuzu seçiniz",style: TextStyle(fontSize: 16,fontWeight:FontWeight.bold),),
+                SizedBox(height: 80,),
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Container(
+                    padding: EdgeInsets.only(left: 16.0, right: 16.0),
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.black, width: 2.0),
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
+                    child: DropdownButton(
+                      hint: Text('Meslek Grubunuzu Seçiniz'),
+                      dropdownColor: Colors.white,
+                      elevation: 5,
+                      icon: Icon(Icons.arrow_drop_down),
+                      iconSize: 36.0,
+                      isExpanded: true,
+                      value: _jobsVal,
+                      style: TextStyle(color: Colors.black, fontSize: 22.0),
+                      onChanged: (value) {
+                        setState(() {
+                          _jobsVal= value as String?;
+                        });
+                      },
+                      items: _jobsName.map((value) {
+                        return DropdownMenuItem(
+                          value: value,
+                          child: Text(value),
+                        );
+                      }).toList(),
+                    ),
                   ),
                 ),
-              ),
-              const SizedBox(height: 100),
-              SizedBox(
-                width: 150,
-                height: 45,
-                child: firebaseRoleUpdate(context),
-              )
-            ],
+                const SizedBox(height: 100),
+                SizedBox(
+                  width: 150,
+                  height: 45,
+                  child: firebaseRoleUpdate(context),
+                )
+              ],
+            ),
           ),
         ),
       ),
@@ -88,6 +90,7 @@ class _DropDownPageState extends State<DropDownPage> {
                     const SnackBar(content: Text("Meslek Seçim Ekranını Boş Bırakamazsınız"))
                   );
                 }else{
+                  print(formkey.currentState!.validate());
                   if (formkey.currentState!.validate()) {
                     formkey.currentState!.save();
                       try {
@@ -97,6 +100,8 @@ class _DropDownPageState extends State<DropDownPage> {
                       }catch (e) {
                         print(e.toString());
                     }
+                }else{
+                  print("boş bırakıldı role değeri");
                 }
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
@@ -104,9 +109,9 @@ class _DropDownPageState extends State<DropDownPage> {
                       Text("Giriş yapıldı meslek sayfanıza yönlendiriliyorsunuz")));
                 
                 if (_jobsVal == "Öğrenci") {
-                  Navigator.pushNamed(context,"/studentPage");
+                  Navigator.pushNamed(context,"/generalChatPage");
                 }else if(_jobsVal == "Öğretmen"){
-                  Navigator.pushNamed(context, "/teacherPage");
+                  Navigator.pushNamed(context, "/generalChatPage");
                 }
                 }},
               style: ElevatedButton.styleFrom(

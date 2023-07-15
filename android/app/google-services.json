@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "572130411410-8ahm5ah2v6bcaf0d10g5pva01vrue4ht.apps.googleusercontent.com",
+          "client_id": "572130411410-rc2tutvvju93scp254mkg4qdf0digvh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.f_8_bootcamp",
+            "certificate_hash": "10f03508804adca8187ca46992c058a657342f8b"
+          }
+        },
+        {
+          "client_id": "572130411410-9mbffnichapj40i1k451d3du2kpqt4g0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],

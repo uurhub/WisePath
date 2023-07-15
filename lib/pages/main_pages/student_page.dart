@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 import '../auth/login_page.dart';
@@ -34,6 +35,7 @@ class _StudentState extends State<Student> {
   Future<void> logout(BuildContext context) async {
     CircularProgressIndicator();
     await FirebaseAuth.instance.signOut();
+    print(FirebaseAuth.instance.currentUser);
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(

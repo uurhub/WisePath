@@ -1,7 +1,16 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-class LoginSelectPage extends StatelessWidget{
+class LoginSelectPage extends StatefulWidget{
   @override
+  State<LoginSelectPage> createState() => _LoginSelectPageState();
+}
+
+class _LoginSelectPageState extends State<LoginSelectPage> {
+  @override
+  final firebaseAuth = FirebaseAuth.instance;
+
   Widget build(BuildContext context){
     return Scaffold(
         body: SafeArea(
@@ -15,11 +24,11 @@ class LoginSelectPage extends StatelessWidget{
                 children: <Widget> [
                   Column(
                     children:<Widget>[
-                      Text("HOŞGELDİNİZ", style: TextStyle(
+                      const Text("HOŞGELDİNİZ", style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 30
                       ),),
-                      SizedBox (height: 20),
+                      const SizedBox (height: 20),
                       Text("Nasıl Devam Etmak İstediğinizi Seçiniz",
                         textAlign: TextAlign.center,
                         style: TextStyle(
@@ -70,16 +79,24 @@ class LoginSelectPage extends StatelessWidget{
                               right:  BorderSide(color: Colors.black),
                             )
                         ),
-                        child:      MaterialButton(
+                        child: MaterialButton(
                           minWidth: double.infinity,
                           height: 60,
-                          onPressed: (){},
+                          onPressed: () async{
+                            try {
+                              final result = await firebaseAuth.signInAnonymously();
+                              print(result.user!.uid);
+                              Navigator.pushNamed(context, "/studentPage");
+                            } catch (e) {
+                              print(e.toString());
+                            }
+                          },
                           color: Color(0xffDAD8D8),
                           elevation: 0,
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(50)
                           ),
-                          child: Text("Giriş Yapmadan Devam Et", style: TextStyle(
+                          child: const Text("Giriş Yapmadan Devam Et", style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 18
 

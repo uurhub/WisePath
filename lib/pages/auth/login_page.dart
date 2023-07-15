@@ -89,14 +89,16 @@ class _LoginPageUIState extends State<LoginPageUI> {
                       fillColor: Colors.white,
                       filled: true,
                       hintText: "Şifre",
-                      prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.password_16_regular))
+                      prefixIcon: Padding(padding: EdgeInsets.only(top: 0),child: Icon(FluentIcons.lock_closed_16_regular))
                       ),
                     ),
                   ),
                       Padding(
                         padding: const EdgeInsets.only(left: 200),
                         child: TextButton(
-                          onPressed: (){}, 
+                          onPressed: (){
+                            Navigator.pushNamed(context, "/forgotPasswordPage");
+                          }, 
                           child: const Text(
                             "Şifreni mi unuttun?",
                             style: TextStyle(
@@ -113,7 +115,7 @@ class _LoginPageUIState extends State<LoginPageUI> {
                             if (formkey.currentState!.validate()) {
                               formkey.currentState!.save();
                               final userResult = await firebaseAuth.signInWithEmailAndPassword(email: email, password: password);
-                              Navigator.pushNamed(context, "/dropdownPage");
+                              Navigator.pushNamed(context, "/generalChatPage"); // dropdownpage?? 
                               try {
                                 print(userResult.user!.email);
                               } catch (e) {
@@ -123,7 +125,8 @@ class _LoginPageUIState extends State<LoginPageUI> {
                           },
                           style:ElevatedButton.styleFrom(
                             shape: const StadiumBorder(),primary: Colors.white), 
-                            child: const Text("Giriş Yap",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black),)),
+                            child: const Text("Giriş Yap",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black),)
+                            ),
                       ),
                       _sizedBox25(),
                       Padding(
