@@ -17,12 +17,7 @@ class _DropDownPageState extends State<DropDownPage> {
   String title = 'DropDownButton';
   String? _jobsVal;
   List _jobsName = [
-    'Öğrenci',
-    'Öğretmen',
     'Doktor',
-    'Mühendis',
-    'Avukat'
-
   ];
   @override
   Widget build(BuildContext context) {
@@ -108,10 +103,10 @@ class _DropDownPageState extends State<DropDownPage> {
                     content: 
                       Text("Giriş yapıldı meslek sayfanıza yönlendiriliyorsunuz")));
                 
-                if (_jobsVal == "Öğrenci") {
-                  Navigator.pushNamed(context,"/generalChatPage");
-                }else if(_jobsVal == "Öğretmen"){
-                  Navigator.pushNamed(context, "/generalChatPage");
+                if (_jobsVal == "Doktor") {
+                  Navigator.pushNamed(context,"/privateGroupPage");
+                }else if(_jobsVal == "Doktor"){
+                  Navigator.pushNamed(context, "/privateGroupPage");
                 }
                 }},
               style: ElevatedButton.styleFrom(
