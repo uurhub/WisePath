@@ -97,7 +97,7 @@ class _FindJobsAPIPageState extends State<FindJobsAPIPage> {
           ),
         ],
       ),
-drawer: Drawer(
+      drawer: Drawer(
         backgroundColor: Color(0xffDAD8D8),
         child: ListView(
           children: <Widget>[
@@ -128,6 +128,21 @@ drawer: Drawer(
                 ),
                 onTap: () {
                   Navigator.pushNamed(context, "/generalChatPage");
+                },
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(left: 50),
+              child: ListTile(
+                leading: Icon(FluentIcons.chat_sparkle_16_regular),
+                title: const Text(
+                  "Meslek Grubu Sohbet",
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                onTap: () {
+                  Navigator.pushNamed(context, "/privateGroupPage");
                 },
               ),
             ),

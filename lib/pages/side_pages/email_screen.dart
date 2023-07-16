@@ -34,6 +34,8 @@ class _EmailSendPageState extends State<EmailSendPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Text("Bize mail göndererek ulaşabilirsiniz",style: TextStyle(fontSize: 20),),
+              SizedBox(height: 50,),
               TextFormField(
                 readOnly: true,
                 controller: email,

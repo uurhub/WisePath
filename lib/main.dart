@@ -1,3 +1,4 @@
+import 'package:f_8_bootcamp/pages/main_pages/private_chat_side/private_chat_page.dart';
 import 'package:f_8_bootcamp/pages/side_pages/email_screen.dart';
 import 'package:f_8_bootcamp/pages/side_pages/faq_page.dart';
 import 'package:f_8_bootcamp/pages/side_pages/forgotpassword_page.dart';
@@ -51,6 +52,7 @@ class MyApp extends StatelessWidget {
         "/forgotPasswordPage":(context) => ForgotPasswordPage(),
         "/faqPage":(context) => FaqPage(),
         "/emailSendPage":(context) => EmailSendPage(),
+        "/privateGroupPage":(context) => PrivateMessagePage()
       },
     home: OnBoardingScreen()
     ),
