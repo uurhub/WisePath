@@ -42,7 +42,8 @@
 <li>Yeni Mezunlar</li>
 <li>Gönüllü Mentörlük Desteği Vermek İsteyen Bireyler</li>
 </ul>
-
+<h2>Jüriye Not</h2>
+<p>Uygulama içerisinde olması planlanan mentör sayfası yetiştirilememiştir.Meslek grupları sayfası ise tecrübe eksikliği sebeplerinden dolayı firebase ve backend bağlantıları yapılamamıştır.Meslek gruplarından sadece "Doktorlar" sayfası bulunmaktadır.</p>
 <hr>
 
 <h1>Sprint 1 </h1>
