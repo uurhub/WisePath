@@ -132,3 +132,52 @@ Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görke
   <b>Sprint Retrospective:</b> Tasarım ve Kodlama süreçlerinin daha da hızlanması gerekildiği tüm takım üyelerine bildirilmiş ve takım üyelerinin daha fazla sorumluluk alarak daha takım olarak belirtlilen deadline'lar içerisinde görevleri yerine getirilmeleri hakkında bilgilendirilmiştir.Daha sık görev takibi yapılmasına karar verilmiştir.</li>
  </li>
 </ul>
+<hr>
+<h2>Product Backlog URL</h2>
+<a href="https://miro.com/app/board/uXjVM_8PSy0=/?share_link_id=226463744446">Flutter Team 8 Miro Backlog Board</a>
+<hr>
+<h1>Sprint 3</h1>
+<ul>
+ <li><b>Sprint Notları:</b>User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.</li>
+ <li><b>Sprint içinde tamamlanması tahmin edilen puan:</b> 160 Puan</li>
+ <li><b>Puan tamamlama mantığı:</b> Toplamda proje boyunca tamamlanması gereken 360 puanlık Backlog bulunmaktadır. 3 sprint'e bölündüğünde üçüncü sprint'in en az 160 ile bitirilmesi gerektiğine karar verildi.</li>
+ <li><b>Daily Scrum:</b> Daily Scrum toplantıları WhatsApp & Discord üzerinden yapılmıştır. Daily Scrum toplantılarına dair bilgileri içeren PDF dosyasına yanda verilen link üzerinden indirebilirsiniz (PDF dosyası içerisinde WhatsApp yazışmaları ve Discord sesli kanalındaki gerçekleşen konular görsel olarak mevcuttur.)-> <a href="https://github.com/uurhub/f_8_bootcamp/files/12064730/F8_DailyMeetings.pdf">Daily Meetings PDF Dosyası</a></li>
+<li><b>Sprint board update:</b> Sprint Board Ekran Görüntüsü:</li>
+<br>
+<img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/8814d8b6-36c1-429b-8c8a-c985f3a213de.png" alt="Scrum Board SS" width="700"/>
+<li><b>Ürün Durumu:</b>Ekran Görüntüleri</li>
+<br>
+<table>
+ <tr>
+  <td>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/1c25c787-4cf3-450c-8a1c-085221230789.png" alt="F.A.Q. Page" width="500"/>
+  </td>
+  <td>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/80d4030e-a184-44cf-a6e5-4f0a906d7fec.png" alt="Help Page" width="500"/>
+  </td>
+  <td>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/7d8c6394-8df1-44cc-b092-6c39c9214c5d.png" alt="Forgot Password Page" width="500"/>
+  </td>
+  <td>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/27048aa8-74d6-46ce-93d2-3a69fc1530f3.png" alt="Remote Jobs Page" width="500"/>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/ecc1f02a-362c-4844-8cc9-a369cd9b62bb.png" alt="Meslek Grupları Page" width="500"/>
+  </td>
+  <td>
+   <img src="https://github.com/uurhub/f_8_bootcamp/assets/70581331/0ab166a7-3ac8-4046-bec8-b6fe6bbce4ba.png" alt="Meslek Grupları Page" width="500"/>
+  </td>
+ </tr>
+</table>
+<br>
+<li>
+<b>Sprint Review:</b> Meslek Grupları sayfası UI tasarımı tamamlanmış,Genel Sohbet sayfası UI ve Firebase,Sıkça Sorulan Sorular sayfası,Yardım ve Destek sayfası,Şifremi Unutum sayfası,Remote İş İlanları sayfaları tamamlanmıştır. Dark mode,Mentörlük sayfası vev Meslek Grupları sayfasının backend işlemleri sürenin kısıtlı olması sebibyle tamamlanamamıştır.
+<br>
+Sprint Reviw katılımcıları: Nur İlayda DAĞLI, İrem KARAKURT, Uğur Görkem ODABAŞ, Berat ÇETİN, Burak Fırat KIRAN
+ </li>
+ <li>
+  <b>Sprint Retrospective:</b> Genel olarak 3 sprint ele alınmış,tüm sprintlerde eksikler ve yavaş hareketler sonucu ortaya çıkan sorunlardan bahsedilmiştir.Tüm takım üyelerine,kendilerinin bir sonraki takım çalışması gerektiren etkinliklerde daha fazla aktif bir rol almaları vurgulanmıştır.</li>
+ </li>
+</ul>
