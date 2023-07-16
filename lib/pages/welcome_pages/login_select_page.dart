@@ -86,7 +86,11 @@ class _LoginSelectPageState extends State<LoginSelectPage> {
                             try {
                               final result = await firebaseAuth.signInAnonymously();
                               print(result.user!.uid);
-                              Navigator.pushNamed(context, "/studentPage");
+                              Navigator.pushNamed(context, "/generalChatPage");
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(
+                                  content: 
+                                    Text("Giriş yapmadığınız için mesaj gönderemez,sadece mesajları görüntüleyebilirsiniz.Yukaridaki butona basak kayıt olabilirsiniz.")));
                             } catch (e) {
                               print(e.toString());
                             }

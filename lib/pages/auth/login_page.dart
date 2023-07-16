@@ -115,7 +115,7 @@ class _LoginPageUIState extends State<LoginPageUI> {
                             if (formkey.currentState!.validate()) {
                               formkey.currentState!.save();
                               final userResult = await firebaseAuth.signInWithEmailAndPassword(email: email, password: password);
-                              Navigator.pushNamed(context, "/generalChatPage"); // dropdownpage?? 
+                              Navigator.pushNamed(context, "/dropdownPage"); // dropdownpage?? 
                               try {
                                 print(userResult.user!.email);
                               } catch (e) {

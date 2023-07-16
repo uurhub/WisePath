@@ -62,84 +62,96 @@ class _FaqPageState extends State<FaqPage> {
           body: ListView(
             children: [
               ExpansionTile(
-                title: Text('dddddddddd',
+                title: Text('WisePath Nedir?',
                     style: TextStyle(color: Color(0xFF3D3F54), fontSize: 23)),
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text('xxxxxxxxxxxxxxxxx',
+                    child: Text('WisePath, meslek sahibi kişilerin mesleki hayatlarında kendileriyle benzer problemleri yaşayan veya henüz kariyerinin başında olan bireylerin bir arada olduğu karma bir ekosistemdir',
                         style:
                             TextStyle(color: Color(0xFF3D3F54), fontSize: 17)),
                   )
                 ],
               ),
               ExpansionTile(
-                title: Text('asdasdasdasd',
+                title: Text('WisePath, sürdürülebilir kalkınma hedeflerine nasıl katkıda bulunuyor?',
                     style: TextStyle(color: Color(0xFF3D3F54), fontSize: 23)),
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text('bbbbbbbbbbbbsadsadasdasdasdsadsadasdsa',
+                    child: Text("WisePath olarak Sürdülebilir Kalkında Hedeflerinden biri olan SKH 8'e etki etmeyi amaçlayarak; toplumdaki bireylere kendilerine yakışacak iş'i bulmada ve kendilerini istihdam ederek ekonomik büyümeye katkı sağlanmasını hedeflemektedir.",
                         style:
                             TextStyle(color: Color(0xFF3D3F54), fontSize: 17)),
                   )
                 ],
               ),
               ExpansionTile(
-                title: Text('cccccccccc',
+                title: Text("WisePath'i kimler kullanabilir?",
                     style: TextStyle(color: Color(0xFF3D3F54), fontSize: 23)),
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text('aaaaaaaaaaaa',
+                    child: Text("WisePath'in hedef kitlesi;Meslek sahibi bireyler,Öğrenciler,Yeni mezunlar ve Gönüllü olarak mentörlük vermek isteyen bireylerdir.",
                         style:
                             TextStyle(color: Color(0xFF3D3F54), fontSize: 17)),
                   )
                 ],
               ),
               ExpansionTile(
-                title: Text('asdasdasdasd',
+                title: Text('Uygulama içerisinde herhangi bir harcama yapmak zorunda mıyım?',
                     style: TextStyle(color: Color(0xFF3D3F54), fontSize: 23)),
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text('bbbbbbbbbbbb',
+                    child: Text('Hayır değilsin, uygulamanın tüm özelliklerini ücretsiz kullanabilirsin ayrıca buradaki herkes gönüllük esasında burada bulunuyor ve diğer kullanıcılara yardım ediyor.',
                         style:
                             TextStyle(color: Color(0xFF3D3F54), fontSize: 17)),
                   )
                 ],
               ),
               ExpansionTile(
-                title: Text('asdasdasdasd',
+                title: Text('Uygulamada hangi meslekler ve sektörler hakkında bilgi bulabilirim?',
                     style: TextStyle(color: Color(0xFF3D3F54), fontSize: 23)),
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text('bbbbbbbbbbbb',
+                    child: Text('Uygulama içerisinde şimdilik birkaç tane meslek grubu için sayfamız bulunmakta,zamanla beraber daha fazla meslek grupları ekliyor olacağız.',
                         style:
                             TextStyle(color: Color(0xFF3D3F54), fontSize: 17)),
                   )
                 ],
               ),
               ExpansionTile(
-                title: Text('asdasdasdasd',
+                title: Text('Kariyerimle ilgili destek almak için nasıl bir yol izlemeliyim?',
                     style: TextStyle(color: Color(0xFF3D3F54), fontSize: 23)),
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text('bbbbbbbbbbbb',
+                    child: Text('Kariyerin için ilgili meslek grubunda veya tüm kullanıcılara açık olan sohbet sayfasında dilediğin her şeyi sorabilir, bir mentör desteğine ihtiyacın var ise mentörlük sayfasından gönüllü mentörler tarafından destek alabilirsin.',
                         style:
                             TextStyle(color: Color(0xFF3D3F54), fontSize: 17)),
                   )
                 ],
               ),
               ExpansionTile(
-                title: Text('asdasdasdasd',
+                title: Text('WisePath, iş arama sürecinde bana nasıl yardımcı olabilir?',
                     style: TextStyle(color: Color(0xFF3D3F54), fontSize: 23)),
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text('bbbbbbbbbbbb',
+                    child: Text('Meslek grupları veya tüm kullanıcılara açık olan sayfalarda bir iş aradığını belirtebilir veya işe alım yapan kişiler ile iletişim kurabilirsin. Ayrıca "Remote İş İlanları" sayfamızdan güncel iş ilanlarını takip edebilirsin.',
+                        style:
+                            TextStyle(color: Color(0xFF3D3F54), fontSize: 17)),
+                  )
+                ],
+              ),
+              ExpansionTile(
+                title: Text('Size nasıl ulaşabilirim?',
+                    style: TextStyle(color: Color(0xFF3D3F54), fontSize: 23)),
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Text('Bizlere sorunuz veya öneriniz varsa; wisepathh@gmail.com adresi üzerinden ulaşabilirsiniz.',
                         style:
                             TextStyle(color: Color(0xFF3D3F54), fontSize: 17)),
                   )

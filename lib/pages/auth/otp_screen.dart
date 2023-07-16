@@ -7,7 +7,7 @@ import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';
 
 import '../../styles/button.dart';
-import '../main_pages/student_page.dart';
+import 'login_page.dart';
 
 class OtpScreen extends StatefulWidget {
   final String verificationId;
@@ -159,7 +159,7 @@ ap.checkExistingUser().then((value) async{
   if(value== true){
 
   }else{
-    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const Student()),
+    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const LoginPageUI()),
     (route) => false);
 
       }

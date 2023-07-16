@@ -79,13 +79,13 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
             },
           ),
         ),
-        title: Align(
-          alignment: Alignment.centerLeft,
+        title: Padding(
+          padding: EdgeInsets.all(40.0),
           child: Text(
             'Kullanıcı Profili',
             style: TextStyle(
               fontSize: 30,
-              fontWeight: FontWeight.bold,
+              //fontWeight: FontWeight.bold,
               color: const Color(0xff3D3F54),
             ),
           ),

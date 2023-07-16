@@ -5,6 +5,7 @@ import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 
 import '../../../fetch_datas.dart';
+import '../../../model/anonymous_user.dart';
 
 class GeneralChatPage extends StatefulWidget {
   const GeneralChatPage({required Key key}) : super(key: key);
@@ -24,25 +25,25 @@ class _GeneralChatPageState extends State<GeneralChatPage> {
         .orderBy("timestamp", descending: true)
         .snapshots();
   }
+  final AnonymousUserLogin anonymousUserLogin = AnonymousUserLogin();
+  final AnonymousUserAppbar anonymousUserAppbar = AnonymousUserAppbar();
 
+  void onPressed(){
+    Navigator.pushNamed(context, "/addContentPage");
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Builder(
-          builder: (context) => IconButton(
-            icon: Image.asset('assets/icons/menu.png'),
-            onPressed: () {
-              Scaffold.of(context).openDrawer();
-            },
-          ),
-        ),
+        leading: anonymousUserAppbar.anonymousUserAppbar(),
         backgroundColor: Color(0xffDAD8D8),
-        title: const Center(
+        title: const Padding(
+          padding: EdgeInsets.all(40.0),
           child: Text(
-            "General Chat",
+            "Genel Sohbet",
             style: TextStyle(
-              color: Colors.black,
+              color: Color(0xff3D3F54),
+              fontSize: 30,
             ),
           ),
         ),
@@ -62,7 +63,7 @@ class _GeneralChatPageState extends State<GeneralChatPage> {
                       return Card(
                         color: Colors.grey,
                         child: ListTile(
-                          //title: Text("Görkem"),
+                          //title: Text("Kullanıcı"),
                           title: GetUserMessages(documentId: docIDs![index]),
                         ),
                       );
@@ -147,13 +148,7 @@ class _GeneralChatPageState extends State<GeneralChatPage> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.grey,
-        onPressed: () {
-          Navigator.pushNamed(context, "/addContentPage");
-        },
-        child: const Icon(FluentIcons.chat_add_16_regular),
-      ),
+      floatingActionButton: anonymousUserLogin.anonymousUserLogin(onPressed),
     );
   }
 }

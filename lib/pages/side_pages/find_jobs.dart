@@ -52,7 +52,7 @@ class _FindJobsAPIPageState extends State<FindJobsAPIPage> {
         title: Text(
           "Güncel Yurtdışı Remote İş İlanları",
           style: TextStyle(
-            color: Colors.black
+            color: Color(0xff3D3F54)
           ),
         ),
       ),
